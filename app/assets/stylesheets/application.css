@@ -13,3 +13,32 @@
  *= require_tree .
  *= require_self
  */
+
+ #btn {
+  background-color: red;
+  padding: 8px 16px;
+  border-radius: 8px;
+ }
+
+ #btn:hover {
+  background-color: rgb(189, 0, 0);
+  transition: 250ms;
+ }
+
+#submit {
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+#underline {
+  text-decoration: underline;
+
+}
+
+body {
+  text-align: center;
+  /* background-color: aquamarine; */
+  background-image: url("https://media0.giphy.com/media/uyY47DYRyMr8A/giphy.webp?cid=ecf05e47qc78ya1gqctc3r5f74s56o8a5o6rfdfrf832fhqq&ep=v1_gifs_search&rid=giphy.webp&ct=g");
+  background-size: cover;
+  color: white;
+}
